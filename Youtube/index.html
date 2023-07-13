@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+</head>
+
+<body>
+    <header>
+        <div class="left-section">
+            <i class="material-icons" onclick="hideNav()">menu</i>
+            <img src="images/youtube-logo.png">
+        </div>
+
+        <div class="mid-section">
+            <form>
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons" id="mic">mic</i>
+        </div>
+
+        <div class="right-section">
+            <a href="#" class="material-icons">video_call</a>
+            <a href="#" class="material-icons">apps</a>
+            <a href="#" class="material-icons">notifications</a>
+            <a href="#" class="material-icons">account_circle</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="side-bar">
+            <nav class="navele">
+                <a href="#" class="active "><i class="material-symbols-rounded ">home</i> <span>Home</span></a>
+                <a href="#"><i class="material-icons-outlined ">explore</i> <span>Explore</span></a>
+                <a href="#"><img src="images/shorts.png"  id="shorts"> <span>Shorts</span></a>
+                <a href="#"><i class="material-icons-outlined ">subscriptions</i> <span>Subscriptions</span></a>
+                <hr>
+                <a href="#"><i class="material-icons-outlined ">video_library</i> <span>Library</span></a>
+                <a  href="#"><i class="material-icons-outlined hide">history</i> <span>History</span></a>
+                <a href="#"><i class="material-icons-outlined hide">smart_display</i> <span>Your Videos</span></a>
+                <a href="#"><i class="material-icons-outlined hide">watch_later</i> <span>Watch later</span></a>
+                <a href="#"><i class="material-icons-outlined hide">thumb_up</i> <span>Liked Videos</span></a>
+                <a href="#"><i class="material-icons-outlined hide">expand_more</i> <span>Show more</span></a>
+                <hr>
+                <p id="sub-section">SUBSCRIPTIONS</p>
+                <a href="#"> <img src="images/profile-pic.jpg" class="ch-pic  hide" > <span>Seif eldin</span></a>
+                <a href="#"> <img src="images/profile-pic2.jpg" class="ch-pic hide"> <span>Ted Ed</span></a>
+                <a href="#"> <img src="images/profile-pic3.jpg" class="ch-pic hide"> <span>AR Tech</span></a>
+                <a href="#"> <img src="images/profile-pic4.jpg" class="ch-pic hide"> <span>دروس أونلاين</span></a>
+                <a href="#"> <img src="images/profile-pic5.jpg" class="ch-pic hide"> <span>AR Games</span></a>
+            </nav>
+
+        </div>
+
+        <div class="mainc">
+            <div class="videocont">
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v1.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The queen of the under world
+                            </a>
+                            <a href="" class="creatorpage">
+                                Seif eldin
+                            </a>
+                            <span class="vd">5M Views • 1 Month ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v2.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                A japanese legend
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">10M Views • 5 Months ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v3.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Do you ever think about depression? I'll tell you.
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">10M Views • 1 Year ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v4.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The infinite hotel story
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">25K Views • 3 Weeks ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v5.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic4.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                الأب الغني والأب الفقير
+                            </a>
+                            <a href="" class="creatorpage">
+                                دروس أونلاين
+                            </a>
+                            <span class="vd">5M Views • 1 Month ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v6.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Bootstrap tutorial
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">35K Views • 10 Months ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v7.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                UI and UX Tips
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">30K Views • 1 Week ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v8.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Nice looking Pc
+                            </a>
+                            <a href="" class="creatorpage">
+                                Seif eldin
+                            </a>
+                            <span class="vd">2M Views • 2 Years ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v9.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic4.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Java tutorial
+                            </a>
+                            <a href="" class="creatorpage">
+                                دروس أونلاين
+                            </a>
+                            <span class="vd">75K Views • 3 Weeks ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v10.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Why do joints pop?
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">2K Views • 3 Days ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v6.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Bootstrap tutorial
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">35K Views • 10 Months ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v4.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The infinite hotel story
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">25K Views • 3 Weeks ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v7.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                UI and UX Tips
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">30K Views • 1 Week ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v1.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The queen of the under world
+                            </a>
+                            <a href="" class="creatorpage">
+                                Seif eldin
+                            </a>
+                            <span class="vd">5M Views • 1 Month ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v4.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic3.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The infinite hotel story
+                            </a>
+                            <a href="" class="creatorpage">
+                                AR Tech
+                            </a>
+                            <span class="vd">25K Views • 3 Weeks ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v10.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Why do joints pop?
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">2K Views • 3 Days ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v5.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic4.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                الأب الغني والأب الفقير
+                            </a>
+                            <a href="" class="creatorpage">
+                                دروس أونلاين
+                            </a>
+                            <span class="vd">5M Views • 1 Month ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v2.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                A japanese legend
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">10M Views • 5 Months ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v3.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic2.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                Do you ever think about depression? I'll tell you.
+                            </a>
+                            <a href="" class="creatorpage">
+                                Ted Ed
+                            </a>
+                            <span class="vd">10M Views • 1 Year ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="videoplay">
+                    <div class="vphoto">
+                        <img src="images/v1.webp" >
+                    </div>
+                    <div class="details">
+                        <div class="creator-img">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <div class="vtitle">
+                            <a href="" class="gotoV">
+                                The queen of the under world
+                            </a>
+                            <a href="" class="creatorpage">
+                                Seif eldin
+                            </a>
+                            <span class="vd">5M Views • 1 Month ago</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <a href="../index.html" id="homePage"><img src="../photo/house-solid.svg"></a>  
+
+    <script src="script.js"></script>
+</body>
+</html>
